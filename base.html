@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="main">
+        <div class="calculator">
+            <div class="tablo">
+                <input id="tablo" type="text" disabled class="tablo-input">
+            </div>
+            <div class="actions">
+                <div class="first-row row-actions">
+                    <button class="btn-action" id="ac">AC</button>
+                    <button class="btn-action" id="plus_minus">+/-</button>
+                    <button class="btn-action action-imp" data-action='/' id="division">÷</button>
+                    <button class="btn-action action-imp" data-action='+' id="addition">+</button>
+                </div>
+                <div class="second-row row-actions">
+                    <button class="btn-action numb" id="one">1</button>
+                    <button class="btn-action numb" id="two">2</button>
+                    <button class="btn-action numb" id="three">3</button>
+                    <button class="btn-action action-imp" data-action='-' id="subtraction">-</button>
+                </div>
+                <div class="third-row row-actions">
+                    <button class="btn-action numb" id="four">4</button>
+                    <button class="btn-action numb" id="five">5</button>
+                    <button class="btn-action numb" id="six">6</button>
+                    <button class="btn-action action-imp" data-action='*' id="multiplication">×</button>
+                </div>
+                <div class="fouth-row row-actions">
+                    <button class="btn-action numb" id="seven">7</button>
+                    <button class="btn-action numb" id="eight">8</button>
+                    <button class="btn-action numb" id="nine">9</button>
+                    <button class="btn-action action-imp" data-action='%' id="precent">%</button>
+                </div>
+                <div class="fouth-row row-actions zero-row">
+                    <button class="btn-action numb" id="zero">0</button>
+                    <button class="btn-action numb" id="dot">.</button>
+                    <button class="btn-action" id="answer">=</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./index.js"></script>
+</body>
+</html>
